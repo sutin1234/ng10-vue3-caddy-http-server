@@ -1,0 +1,4 @@
+FROM abiosoft/caddy:latest
+
+ADD ./Caddyfile /etc/Caddyfile
+ADD ./vue3/dist/ /serve/
